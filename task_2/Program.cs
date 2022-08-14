@@ -32,7 +32,7 @@ for(int j = 0; j <massive.Length; j+=2 )
 {
     sum = sum + massive[j];
 }
-Console.WriteLine($"всего {massive.Length} чисел, сумма на четных позициях = {sum}" );
+Console.WriteLine($"всего {massive.Length} чисел, сумма на нечетных позициях = {sum}" );
 
 
 
