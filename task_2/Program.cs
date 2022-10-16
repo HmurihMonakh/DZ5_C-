@@ -28,7 +28,7 @@ for(int i = 0; i < massive.Length; i++)
 PrintArray(massive);
 Console.WriteLine();
 int sum = 0;
-for(int j = 0; j <massive.Length; j+=2 )
+for(int j = 1; j <massive.Length; j+=2 )
 {
     sum = sum + massive[j];
 }
